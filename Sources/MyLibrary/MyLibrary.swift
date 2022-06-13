@@ -1,6 +1,6 @@
-public struct MyLibrary {
-    public private(set) var text = "Hello, World!"
 
-    public init() {
+public extension Bool {
+    init(bit: Int) {
+        self = bit == 1
     }
 }
